@@ -7,16 +7,16 @@ Fun and simple mario memory game made with plain JavaScript.
 
 ## Instructions 🚀
 
-Display 12 cards. <br>
-Duplicate the cards to have 2 sets of 12.<br>
-Randomize the display of cards.<br>
-Add selected style for selected cards.<br>
-Only allow two cards to be selected at a time.<br>
-Determine if two selected cards are a match and hide them.<br>
-Reset guess count after 2.<br>
-Add delay to selections.<br>
-Show back of card initially and flip on select<br>
-Finished game! <br>
+1. Display 12 cards. <br>
+2. Duplicate the cards to have 2 sets of 12.<br>
+3. Randomize the display of cards.<br>
+4. Add selected style for selected cards.<br>
+5. Only allow two cards to be selected at a time.<br>
+6. Determine if two selected cards are a match and hide them.<br>
+7. Reset guess count after 2.<br>
+8. Add delay to selections.<br>
+9. Show back of card initially and flip on select<br>
+10. Finished game! <br>
 
 
 ## Inspiration behind the game 
