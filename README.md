@@ -83,7 +83,9 @@ By utilizing these resources, I was able to gain a better understanding of vario
 
 Additionally as this was a game, I had peers from the Code Institute and some friends of mine to try out the game, and offer any suggestions, ideas and feedback. 
 
+## Aknowledgements 
 
+I would like to thank the lovely staff, peers and my mentor Martina at the Code Institute. 
 
 
 
