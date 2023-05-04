@@ -83,7 +83,7 @@ By utilizing these resources, I was able to gain a better understanding of vario
 
 Additionally as this was a game, I had peers from the Code Institute and some friends of mine to try out the game, and offer any suggestions, ideas and feedback. 
 
-Even though Google Lighthouse testing wasn't majorely necessary here as it is just a game simple game and not a website with multiple webpages, I enjoy using this testing tool to learn more about the functionalites of it.
+Even though Google Lighthouse testing wasn't majorly necessary here as it is just a game simple game and not a website with multiple webpages, I enjoy using this testing tool to learn more about the functionalites of it.
 I still wanted some insights and recommendations on various aspects of a website, such as performance, accessibility, and how to adherence to best practices.
 
 <img width="614" alt="image" src="https://user-images.githubusercontent.com/104692075/236203362-da671715-ffaa-4c62-b2e4-abbde48b98e1.png">
