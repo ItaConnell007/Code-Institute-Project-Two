@@ -81,6 +81,7 @@ Resources, I kept note of throughout the design process. <br>
 
 By utilizing these resources, I was able to gain a better understanding of various web development concepts and methods, ultimately leading to a successful completion of the memory card game project.
 
+Additionally as this was a game, I had peers from the Code Institute and some friends of mine to try out the game, and offer any suggestions, ideas and feedback. 
 
 
 
