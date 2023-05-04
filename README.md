@@ -41,6 +41,16 @@ This was the image which I showed my mentor of how I wanted my game to look like
 I played around with a couple of different themes, as I was looking for high quality images, I experimented with some AI images as well which was an additional educational experience in this design process, learning about AI. 
 
 
+## Bugs / Testing / Google Lighthouse Testing 
+
+While developing this memory card game, I encountered several challenges and learned a great deal in the process. One of the key issues I faced was ensuring that only two cards could be flipped at any given time. To solve this, I implemented a variable called `blockBoard` that would prevent further moves while two cards were flipped.<br>
+
+Another issue I faced was when a card was clicked multiple times, causing unexpected behavior. To resolve this, I added a condition in the `cardFlip` function to check if the clicked card was the same as the initial card, and if so, do nothing. <br>
+
+The most significant learning experience came from creating a function to randomize the order of the cards when the page loaded. I learned about Immediately Invoked Function Expressions (IIFE) and how they could be used to execute functions immediately after they are defined. This allowed me to randomize the cards in a clean and efficient manner.
+
+Throughout the project, I also gained a deeper understanding of event listeners, manipulating the DOM, and using data attributes in HTML elements. This project provided a valuable opportunity to apply and expand upon my existing knowledge of JavaScript, HTML, and CSS.
+
 
 
 
