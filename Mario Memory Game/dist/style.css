@@ -1,0 +1,157 @@
+
+/* Global Styles: These styles apply to all elements on the page */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; /* Ensures padding and border are included in an element's total width and height */
+}
+
+/* Body Styles: These styles apply to the body of the webpage */
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-family: 'Boogaloo', cursive; /* Google Fonts: https://fonts.google.com/ */
+}
+
+body::before{
+	content:"";
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: linear-gradient(115deg, rgba(239,229,124,0.10), rgba(233,185,86,0.15)), url('images/mariobackground.jpeg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1; /* Places the image behind the content */
+}
+
+
+/* Title Styles */
+h1{
+	font-size: 70px;
+	text-shadow: 2px 2px 7px #6EAFD9;
+	text-transform: uppercase;
+}
+
+/* Memory Game Styles */
+.memory-game{
+	width: 640px;
+	height: 640px;
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	perspective: 1000px; /* Enables 3D transforms */
+}
+
+/* Card Memory Styles */
+.card-memory{
+	width: calc(25% - 10px);
+	height: calc(33.333% - 10px);
+	margin: 5px;
+	position: relative;
+	transform: scale(1);
+	transform-style: preserve-3d; /* Preserves the 3D position of the child elements */
+	transition: transform 0.5s; /* Adds animation to the transform property */
+}
+
+/* Active Card Styles */
+.memory-card:active{
+	transform: scale(0.97);
+	transition: transform 0.2s; /* Adds animation to the transform property */
+}
+
+/* Front and Back Face Styles */
+.front-face, .back-face{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	position: absolute;
+	border-radius: 5px;
+	background-color: rgba(44,114,141,1.00);
+	backface-visibility: hidden; /* Hides the back of the elements */
+}
+
+.front-face{
+	backface-visibility: visible;
+}
+
+/* Flipped Card Styles */
+.flipped{
+	transform: rotateY(180deg); /* Flips the card */
+}
+
+/* Win Message Styles */
+#winMessage{
+	width: 350px;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-color: rgba(255,198,0,1.00);
+}
+
+#winMessage button{
+	width: 140px;
+	color: #fff;
+	margin-top: 10px;
+	font-family: 'Boogaloo', cursive;
+	font-size: 28px;
+	text-transform: uppercase;
+	background-color: rgba(44,114,141,1.00);
+	border-radius: 5px;
+}
+
+/* RESPONSIVE STYLES: These styles will apply when the viewport is 650px or smaller */
+@media screen and (max-width: 650px){
+	body{
+		justify-content: flex-start;
+	}
+	h1{
+		font-size: 40px;
+		text-shadow: 2px 2px 7px #6EAFD9;
+	}
+	.memory-game{
+		width: 310px;
+		height: 500px;
+		margin: 20px auto;
+	}
+	.memory-card{
+		width: calc(25% - 5px);
+		height: calc(33.333% - 5px);
+		margin: 2.5px;
+	}
+	.front-face, 
+	.back-face{
+		padding: 8px;
+	}
+	#winMessage{
+		width: 290px;
+		height: 90px;
+		position: absolute;
+		top: 280px;
+		margin-top: 0;
+		display: flex;
+		font-size: 25px;
+	}
+
+	#winMessage button{
+		margin-top: 0;
+		font-size: 20px;
+	}
+}
+
