@@ -5,7 +5,7 @@ Fun and simple mario memory game made with plain JavaScript.
 <img width="983" alt="image" src="https://user-images.githubusercontent.com/104692075/236189171-7abe36d6-e8f4-4f21-8328-7dd4977f77fc.png">
 
 
-## Instructions
+## Instructions 🚀
 
 Display 12 cards. <br>
 Duplicate the cards to have 2 sets of 12.<br>
