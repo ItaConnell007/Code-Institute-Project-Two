@@ -103,7 +103,7 @@ As well as a command line tool which can be good for converting images in bulk u
 
 I then researched how to serve these formats, I found two of the most user-friendly options which were; <br>
 Directly replace the existing image files on your server with the new WebP or AVIF versions and update the corresponding src attributes in your HTML.  <br>
-Additionally, using the <picture> element: The <picture> element allows you to provide multiple sources for an image, with the browser selecting the most appropriate one. 
+Additionally, using the < picture > element: The < picture > element allows you to provide multiple sources for an image, with the browser selecting the most appropriate one. 
 
 These are things I will learn from and incorporate in my next project.
 
