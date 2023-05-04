@@ -21,7 +21,8 @@ Fun and simple mario memory game made with plain JavaScript.
 
 ## Inspiration behind the game 
 
-The decision to create a memory game with a Mario theme is a testament to the enduring power of nostalgia, creativity, and connection. Like many others when I was growing up he became a universally cherished character, Mario transcends the barriers of age, language, and culture, unifying us through shared memories of his adventures. By weaving this iconic figure into the fabric of a memory game, I wanted to pay homage to the joy and excitement that Mario has brought into our lives in the timeless world of Mario.
+The decision to create a memory game with a Mario theme is a testament to the enduring power of nostalgia, creativity, and connection. Like many others when I was growing up he became a universally cherished character, Mario transcends the barriers of age, language, and culture, unifying us through shared memories of his adventures.<br>
+By weaving this iconic figure into the fabric of a memory game, I wanted to pay homage to the joy and excitement that Mario has brought into our lives in the timeless world of Mario.
 
 ## Resources 
 There are so may great YouTubers who have been such a source of inspiration and learning while studying to become a developer.
