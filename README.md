@@ -1,4 +1,4 @@
-# JavaScript Memory Game 
+# JavaScript Memory Game 🕹
 
 Fun and simple mario memory game made with plain JavaScript.
 
