@@ -51,6 +51,35 @@ The most significant learning experience came from creating a function to random
 
 Throughout the project, I also gained a deeper understanding of event listeners, manipulating the DOM, and using data attributes in HTML elements. This project provided a valuable opportunity to apply and expand upon my existing knowledge of JavaScript, HTML, and CSS.
 
+While working on the memory card game project, I referred to several resources that helped me understand various concepts and methods better. These resources were instrumental in solving the challenges I encountered and enhancing my knowledge of JavaScript, HTML, and CSS.
+
+Resources, I kept note of throughout the design process. <br>
+<br>
+1. Document.querySelectorAll: I used this method to select all the memory cards on the page. The Mozilla Developer Network (MDN) documentation provided valuable information on how to use it:
+   https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+
+2. Immediately Invoked Function Expression (IIFE): I learned about IIFE and how it can be used to execute functions immediately after they are defined. The MDN Glossary was a helpful resource:
+   https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
+3. Math.random: To generate random numbers for randomizing the order of the cards, I used the Math.random method. The MDN documentation provided useful examples and explanations:
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+4. CSS 'order' property: I used the 'order' property to change the order of the flex items (cards). The MDN documentation provided a clear understanding of how to use this property:
+   https://developer.mozilla.org/en-US/docs/Web/CSS/order
+
+5. HTML data-* attributes: I used data attributes to store information on the cards. The MDN documentation offered a great guide on how to use these attributes:
+   https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+6. WindowOrWorkerGlobalScope.setTimeout: I used the setTimeout method to delay actions, such as flipping the cards back over if they don't match. The MDN documentation provided insights on how to use it effectively:
+   https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
+
+7. Document.getElementById: I used this method to find the win message element and change its display style. The MDN documentation was a helpful resource to learn more about it:
+   https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+
+8. EventTarget.addEventListener: I used the addEventListener method to attach the cardFlip function to each memory card. The MDN documentation provided valuable information on how to use this method:
+   https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+By utilizing these resources, I was able to gain a better understanding of various web development concepts and methods, ultimately leading to a successful completion of the memory card game project.
 
 
 
