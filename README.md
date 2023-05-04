@@ -30,5 +30,20 @@ Of course all the usual suspects were included, such as,  [Mozila Developer Docs
 [w3school](https://www.w3schools.com/ ).<br>
 For the images I used [freepik](https://www.freepik.com/) for my icons and for my background image. 
 
+## Design / Wireframe 
+This has  been one of the more basic designs that I have created, you can't over engineer a simple card game, so I didn't do that. Instead I made sure to really understand the functionalities of the game and the code. 
+Of course, I brainstormed with my mentor regarding ideas of how I wanted my project to look like. 
+In the end the end, I decided I love Mario and wanted this game to be Mario themed, I wanted a functional 12 card memory game, with an alert at the end with a reset function. 
+This was the image which I showed my mentor of how I wanted my game to look like. <br>
+<br>
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/104692075/236193200-c1dd6354-a8a5-4523-bd06-71dd7fa379c0.png">
+
+I played around with a couple of different themes, as I was looking for high quality images, I experimented with some AI images as well which was an additional educational experience in this design process, learning about AI. 
+
+
+
+
+
+
 
 
