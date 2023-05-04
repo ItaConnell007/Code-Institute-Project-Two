@@ -117,41 +117,46 @@ h1{
 }
 
 /* RESPONSIVE STYLES: These styles will apply when the viewport is 650px or smaller */
-@media screen and (max-width: 650px){
-	body{
-		justify-content: flex-start;
-	}
-	h1{
-		font-size: 40px;
-		text-shadow: 2px 2px 7px #6EAFD9;
-	}
-	.memory-game{
-		width: 310px;
-		height: 500px;
-		margin: 20px auto;
-	}
-	.memory-card{
-		width: calc(25% - 5px);
-		height: calc(33.333% - 5px);
-		margin: 2.5px;
-	}
-	.front-face, 
-	.back-face{
-		padding: 8px;
-	}
-	#winMessage{
-		width: 290px;
-		height: 90px;
-		position: absolute;
-		top: 280px;
-		margin-top: 0;
-		display: flex;
-		font-size: 25px;
-	}
+@media screen and (max-width: 480px) {
+    body {
+        justify-content: flex-start;
+        transform: scale(0.219);
+    }
 
-	#winMessage button{
-		margin-top: 0;
-		font-size: 20px;
-	}
+    h1 {
+        font-size: 40px;
+        text-shadow: 2px 2px 7px #6EAFD9;
+    }
+
+    .memory-game {
+        width: 310px;
+        height: 500px;
+        margin: 20px auto;
+    }
+
+    .memory-card {
+        width: calc(25% - 5px);
+        height: calc(33.333% - 5px);
+        margin: 2.5px;
+    }
+
+    .front-face,
+    .back-face {
+        padding: 8px;
+    }
+
+    #winMessage {
+        width: 290px;
+        height: 90px;
+        position: absolute;
+        top: 280px;
+        margin-top: 0;
+        display: flex;
+        font-size: 25px;
+    }
+
+    #winMessage button {
+        margin-top: 0;
+        font-size: 20px;
+    }
 }
-
