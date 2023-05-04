@@ -83,9 +83,34 @@ By utilizing these resources, I was able to gain a better understanding of vario
 
 Additionally as this was a game, I had peers from the Code Institute and some friends of mine to try out the game, and offer any suggestions, ideas and feedback. 
 
+Even though Google Lighthouse testing wasn't majorely necessary here as it is just a game simple game and not a website with multiple webpages, I enjoy using this testing tool to learn more about the functionalites of it.
+I still wanted some insights and recommendations on various aspects of a website, such as performance, accessibility, and how to adherence to best practices.
+
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/104692075/236203362-da671715-ffaa-4c62-b2e4-abbde48b98e1.png">
+
+Overall I am happy with the score, but of course there is things to improve on and learn from.
+
+The Google Lighthouse report suggests that I serve images in next-gen formats like WebP and AVIF to improve the website's performance. I learned these formats provide better compression than traditional formats like PNG or JPEG, resulting in faster downloads and reduced data consumption.
+
+As previously stated, it was hard finding high-quality one-themed icons, so I researched into 
+understanding the benefits of next-gen image formats:
+
+I read up on Next-gen formats like WebP and AVIF which offer superior compression and quality compared to traditional formats. Which can lead to faster page load times, improved user experience, and better search engine rankings.
+
+I also learned that I can convert existing images to next-gen formats and there are several tools and libraries available to help with this task.
+There are websites like Squoosh (https://squoosh.app/) or Convertio (https://convertio.co/) that allow users to convert images to WebP or AVIF formats.
+As well as a command line tool which can be good for converting images in bulk using scripts or command prompts, and image editing software like Adobe Photoshop or GIMP which supports exporting images in next-gen formats.
+
+I then researched how to serve these formats, I found two of the most user-friendly options which were
+Directly replace the existing image files on your server with the new WebP or AVIF versions and update the corresponding src attributes in your HTML. 
+Additionally, using the <picture> element: The <picture> element allows you to provide multiple sources for an image, with the browser selecting the most appropriate one. 
+
+These are things I will learn from and incorporate in my next project.
+
+
 ## Acknowledgements 
 
-I would like to thank the lovely staff, peers and my mentor Martina at the Code Institute. The help, feedback and positive reinforcement are very appreciated! ❤️
+I would like to thank the lovely staff, peers and my mentor Martina at the Code Institute. The help, feedback and positive reinforcement are always very appreciated! ❤️
 
 
 
